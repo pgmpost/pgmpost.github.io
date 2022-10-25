@@ -4,3 +4,8 @@ description: A blogging plateform about programming
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+
+
+
+plugins:
+ - jekyll-feed
