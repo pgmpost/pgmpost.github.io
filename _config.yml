@@ -3,7 +3,7 @@ logo: /assets/img/logo.png
 description: A blogging plateform about programming
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-minimal
+theme: minima
 
 
 
