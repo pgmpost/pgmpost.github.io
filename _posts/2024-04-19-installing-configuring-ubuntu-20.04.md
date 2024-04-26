@@ -168,11 +168,6 @@ todo !
 
 <br>
 
-### Hardening tips
-
-Ubuntu hardening is a tedious task. The following configurations are just basic hardening tips! For more serious configurations 
-consider following official [guides from Ubuntu](https://ubuntu.com/blog/what-is-system-hardening-definition-and-best-practices){:target="_blank"}.
-
 **Getting a pro subscription**
 
 First thing to do is to register for a [pro subscription](https://ubuntu.com/pro/subscribe){:target="_blank"}. It is Free for up to five machines.
@@ -215,6 +210,20 @@ You can inspect the file and install and configure what you want. For example to
 <p>Depending on your knowledge and the type of hardening you want to do, you can proceed to do everything yourself, or <a href="https://ubuntu.com/security/certifications/docs/usg/cis/compliance" target="_blank">comply your system to the CIS benchmark automatically</a>. We recommand that you create a copy of your important files and configurations and create an administrator account before doing so. Follow the official guide <a href="https://ubuntu.com/security/certifications/docs" target="_blank">Security Compliance & Certifications for 20.04</a> as you see fit.
 </p>
 </div>
+
+<br>
+
+**Installing ClamAV**
+
+<div class="message-info">
+<p>
+<a href="https://www.clamav.net/about">ClamAV</a> is an open-source (GPL) anti-virus engine used in a variety of situations, including email and web scanning, and endpoint security. It provides many utilities for users, including a flexible and scalable multi-threaded daemon, a command-line scanner and an advanced tool for automatic database updates.
+</p>
+</div>
+
+To install ClamAV type in :
+	
+	sudo apt-gte install clamav clamav-daemon clamtk
 
 <br>
 
@@ -278,7 +287,7 @@ Make sure to verify your download.
 
 	sha256sum -c SHA256SUMS 2>&1 | grep OK
 	
-which should produce :
+Which should produce :
 
 	virtualbox-7.0_7.0.16-162802~Ubuntu~focal_amd64.deb: OK
 	
@@ -286,7 +295,7 @@ Install Virtualbox :
 
 	sudo dpkg -i virtualbox-7.0_7.0.16-162802~Ubuntu~focal_amd64.deb
 
-If for some reason, the package has unmet dependencies, you can install them using :
+If for some reason the package has unmet dependencies, you can install them using :
 
 	sudo apt-get install -f
 	
@@ -302,3 +311,4 @@ Open VirtualBox, got to File > Tools > Extension Pack Manager > Install, then lo
 
 - [Installing Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){:target="_blank"}
 - [How to verify Ubuntu](https://ubuntu.com/tutorials/how-to-verify-ubuntu#1-overview){:target="_blank"}
+- [Hardening Ubuntu](https://ubuntu.com/blog/what-is-system-hardening-definition-and-best-practices){:target="_blank"}
