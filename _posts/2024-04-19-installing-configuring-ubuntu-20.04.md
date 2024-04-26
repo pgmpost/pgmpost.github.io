@@ -173,8 +173,9 @@ todo !
 Ubuntu hardening is a tedious task. The following configurations are just basic hardening tips! For more serious configurations 
 consider following official [guides from Ubuntu](https://ubuntu.com/blog/what-is-system-hardening-definition-and-best-practices){:target="_blank"}.
 
+**getting a pro subscription**
 
-First thing to do is to register for a [pro subscription](https://ubuntu.com/pro/subscribe){:target="_blank"}. It is Free for up to five machine.
+First thing to do is to register for a [pro subscription](https://ubuntu.com/pro/subscribe){:target="_blank"}. It is Free for up to five machines.
 
 Once logged-in, copy your token and atach your machine as follow : 
 
@@ -182,7 +183,7 @@ Once logged-in, copy your token and atach your machine as follow :
 	
 Follow the instructions in your terminal, then update and upgrade your system.
 
-If you open "Software and Updates", you should get a new tab "Ubuntu Pro"
+If you open "Software and Updates", you should get a new tab "Ubuntu Pro".
 
 ![install1](/pictures/ubuntu_pro_tab.png)
 
@@ -190,11 +191,29 @@ And a Liveaptch icon. Livepatch enables security updates that don't require a re
 
 ![install1](/pictures/livepatch_icon.png)
 
+**Auditing our system against CIS Benchmark**
+
+Enable Ubuntu Security Guide
+
+	sudo pro enable usg
+	sudo apt-get install usg
 
 
+You can then audit your system for CIS Benchmark
 
+	sudo usg audit cis_level1_workstation
+	
+which will produce the result in an html and xml format located at :
+
+	/var/lib/usg/usg-report-20240426.1128.html
+
+You can inspect the file and install and configure what you want. For example to install [aide](https://askubuntu.com/questions/1507027/how-install-aide-on-ubuntu){:target="_blank"}, type in :
+
+	sudo apt-get install aide
+	
 <div class="message-tip">
-<p>todo !</p>
+<p>Depending on your knowledge and the type of hardening you want to do, you can proceed to do everything yourself, or <a href="https://ubuntu.com/security/certifications/docs/usg/cis/compliance" target="_blank">comply your system automatically</a> to the CIS benchmark. We recommand that you create a copy of your important files and configurations and create an administrator account before doing so. Follow the official guide <a href="https://ubuntu.com/security/certifications/docs" target="_blank">Security Compliance & Certifications for 20.04</a> as you see fit.
+</p>
 </div>
 
 <br>
