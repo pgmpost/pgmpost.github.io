@@ -8,7 +8,6 @@ title: Installing and configuring Ubuntu 20.04
 - [Introduction](#introduction)
 - [Installing Ubuntu](#installing-ubuntu)
 - [First update and configuration](#first-update-and-configuration)
-- [Hardening tips](#hardening-tips)
 - [Installing additional software](#installing-additional-software)
 - [References](#references)
 
@@ -164,7 +163,8 @@ Enable the service at startup
 
 **Managing Users**
 
-todo !
+Managing users is a critical component of your istallation. Depending on what you want to do, we recomand following the security guides provided by Ubuntu.
+For instance : [User management](https://ubuntu.com/server/docs/user-management){:target="_blank"}.
 
 <br>
 
