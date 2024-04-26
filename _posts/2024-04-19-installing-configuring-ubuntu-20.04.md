@@ -269,6 +269,32 @@ Go to the [obsidian website](https://obsidian.md/download) and download the .deb
 Then run the following command : 
 
 	 sudo dpkg -i obsidian_file_name.deb
+	 
+**Installing VirutalBox**
+
+go to [Virtualbox website](https://www.virtualbox.org/wiki/Linux_Downloads){:target="_blank"} and download the .deb file for Ubuntu 20.04. Also download the sha256 checksum.
+
+Make sure to verify your download.
+
+	sha256sum -c SHA256SUMS 2>&1 | grep OK
+	
+which should produce :
+
+	virtualbox-7.0_7.0.16-162802~Ubuntu~focal_amd64.deb: OK
+	
+Install Virtualbox :
+
+	sudo dpkg -i virtualbox-7.0_7.0.16-162802~Ubuntu~focal_amd64.deb
+
+If for some reason, the package has unmet dependencies, you can install them using :
+
+	sudo apt-get install -f
+	
+Download VirtualBox extensionpack (make sure it is the same version as your VirtualBox) :
+
+	wget -c https://download.virtualbox.org/virtualbox/7.0.16/Oracle_VM_VirtualBox_Extension_Pack-7.0.16.vbox-extpack
+	
+Open VirtualBox, got to File > Tools > Extension Pack Manager > Install, then locate the file you just downloaded. Follow the instructions to complete the installation.
 
 <br>
 
