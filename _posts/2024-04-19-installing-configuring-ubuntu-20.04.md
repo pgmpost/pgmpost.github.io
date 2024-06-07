@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing and configuring Ubuntu 20.04
-image: /pictures/ubuntu-20.04_19_04_2024_10_38_00.png
+image: https://pgmpost.github.io/pictures/ubuntu-20.04_19_04_2024_10_38_00.png
 ---
 
 **Content**
