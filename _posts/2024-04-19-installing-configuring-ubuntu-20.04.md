@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Installing and configuring Ubuntu 20.04
+image: /pictures/ubuntu-20.04_19_04_2024_10_38_00.png
 ---
 
 **Content**
@@ -25,9 +26,9 @@ title: Installing and configuring Ubuntu 20.04
 
 Ubuntu is the most popular  distribution on the planet. It is used by millions of people across the world and it powers millions of servers, workstations and laptops.
 
-Ubuntu comes in three versions : Desktop, Server and Core. It has a LTS (Long Term Support) version that comes every two years, and an in-between versions that are released every six months.
+Ubuntu comes in three versions : Desktop, Server and Core. It has a LTS (Long Term Support) version that comes every two years, and the in-between versions that are released every six months.
 
-If you have a laptop or a tower then Ubuntu Desktop is what you are looking for. If you want to install Ubuntu server, then you likely know how to install Ubuntu and this post is not for you. We recommend installing an LTS (Long Term Support) version, since they are the most stable releases that will receive support for 5 years. Ubuntu 20.04 will receive updates and security patches until April 2025. At which point, we recommend switching to the 22.04 release. Why not directly install Ubuntu 22.04 ? Well, it's a choice ! This way however, the [community](https://askubuntu.com/){:target="_blank"} has the time to catch up and put content on the internet on that version. Also, you can be sure the version of Ubuntu you have have plenty of security patches already developed.
+If you have a laptop or a tower then Ubuntu Desktop is what you are looking for. If you want to install Ubuntu server, then you likely know how to install Ubuntu and this post is not for you. We recommend installing an LTS version, since they are the most stable releases that will receive support for 5 years. Ubuntu 20.04 will receive updates and security patches until April 2025. At which point, we recommend switching to the 22.04 release. Why not directly install Ubuntu 22.04 ? Well, it's a choice ! This way however, the [community](https://askubuntu.com/){:target="_blank"} has time to catch up and put content on the internet on that version. Also, you can be sure the version of Ubuntu you have have plenty of security patches already developed.
 
 
 **Downloading the *.iso* file**
@@ -105,7 +106,7 @@ Installing Ubuntu is pretty easy, you can do it in a couple of minutes.
 
 After downloading and verifying the *.iso* file, you need to create a bootable usb with it.
 
-Go to [Balena Etcher download](https://etcher.balena.io/#download-etcher) section and download the file corresponding to your OS.
+Go to [Balena Etcher download](https://etcher.balena.io/#download-etcher){:target="_blank"} section and download the file corresponding to your OS.
 
 Once Etcher is installed, insert the usb thumb drive (which should be at least 4G), select the *iso* file then select the drive, then click flash and wait for Etcher to finish.
 
@@ -147,7 +148,7 @@ To update Ubuntu, type in :
 
 **Firewall**
 
-The default firewall for ubuntu is [UFW](https://help.ubuntu.com/community/UFW). We are not going to cover most of its features, maybe in a future post.
+The default firewall for ubuntu is [UFW](https://help.ubuntu.com/community/UFW){:target="_blank"}. We are not going to cover most of its features, maybe in a future post.
 
 For now just deny incoming requests :
 
@@ -207,7 +208,7 @@ You can inspect the file and install and configure what you want. For example to
 	
 	
 <div class="message-tip">
-<p>Depending on your knowledge and the type of hardening you want to do, you can proceed to do everything yourself, or <a href="https://ubuntu.com/security/certifications/docs/usg/cis/compliance" target="_blank">comply your system to the CIS benchmark automatically</a>. We recommand that you create a copy of your important files and configurations and create an administrator account before doing so. Follow the official guide <a href="https://ubuntu.com/security/certifications/docs" target="_blank">Security Compliance & Certifications for 20.04</a> as you see fit.
+<p>Depending on your knowledge and the type of hardening you want to do, you can proceed to do everything yourself or <a href="https://ubuntu.com/security/certifications/docs/usg/cis/compliance" target="_blank">comply your system to the CIS benchmark automatically</a>. We recommand that you create a copy of your important files and configurations and create an administrator account before doing so. Follow the official guide <a href="https://ubuntu.com/security/certifications/docs" target="_blank">Security Compliance & Certifications for 20.04</a> as you see fit.
 </p>
 </div>
 
@@ -217,7 +218,7 @@ You can inspect the file and install and configure what you want. For example to
 
 <div class="message-info">
 <p>
-<a href="https://www.clamav.net/about">ClamAV</a> is an open-source (GPL) anti-virus engine used in a variety of situations, including email and web scanning, and endpoint security. It provides many utilities for users, including a flexible and scalable multi-threaded daemon, a command-line scanner and an advanced tool for automatic database updates.
+<a href="https://www.clamav.net/about" target="_blank">ClamAV</a> is an open-source (GPL) anti-virus engine used in a variety of situations, including email and web scanning, and endpoint security. It provides many utilities for users, including a flexible and scalable multi-threaded daemon, a command-line scanner and an advanced tool for automatic database updates.
 </p>
 </div>
 
@@ -231,7 +232,7 @@ To install ClamAV type in :
 
 **Installing Dropbox**
 
-Installing Dropbox is somewhat complicated as there is a [bug in the gui process](https://askubuntu.com/questions/154671/dropbox-install-stuck-at-99-how-do-i-fix-it-and-any-dpkg-errors).
+Installing Dropbox is somewhat complicated as there is a [bug in the gui process](https://askubuntu.com/questions/154671/dropbox-install-stuck-at-99-how-do-i-fix-it-and-any-dpkg-errors){:target="_blank"}.
 
 First, get the .*deb* file :
 
@@ -251,7 +252,7 @@ After restarting your computer, launch Dropbox from the application menu, login 
 
 ![install7](/pictures/Screenshot_from_2024-04-18_10-16-36.png)
 
-If you don't have a Dropbox account, you can use [this referral link](https://www.dropbox.com/referrals/AAABTrW6_E0coaWvRhRAxegHqD-dgVXkTAM?src=global9) (you will get an additional 500 Mb for free).
+If you don't have a Dropbox account, you can use [this referral link](https://www.dropbox.com/referrals/AAABTrW6_E0coaWvRhRAxegHqD-dgVXkTAM?src=global9){:target="_blank"} (you will get an additional 500 Mb for free).
 
 **Installing Inkscape**
 
@@ -273,7 +274,7 @@ Chromium is the open source version of Google-Chrome browser. To install it, typ
 
 **Installing Obsidian**
 
-Go to the [obsidian website](https://obsidian.md/download) and download the .deb file listed at the end of the site.
+Go to the [obsidian website](https://obsidian.md/download){:target="_blank"} and download the .deb file listed at the end of the site.
 
 Then run the following command : 
 
