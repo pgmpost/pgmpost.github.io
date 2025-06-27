@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "30ba38162987dbe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7062b895f8e41533",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba72f6eb38d97766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-04-19-installing-configuring-ubuntu-20.04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-04-19-installing-configuring-ubuntu-20.04"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ffdd247264999a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a21ddef868f3dfff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2368ccea699cb37f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "27692d617079619a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bdc4862230cd97a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bf016085b887c49a",
+    "type": "split",
+    "children": [
+      {
+        "id": "271b9711a99aa352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ed3054a3e80d72d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-04-19-installing-configuring-ubuntu-20.04.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-04-19-installing-configuring-ubuntu-20.04"
+            }
+          },
+          {
+            "id": "e79f48079fcf8ea4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-04-19-installing-configuring-ubuntu-20.04.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-04-19-installing-configuring-ubuntu-20.04"
+            }
+          },
+          {
+            "id": "d9a432ef7a851064",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4602a1ac6c2bb970",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-04-19-installing-configuring-ubuntu-20.04.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-04-19-installing-configuring-ubuntu-20.04"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ba72f6eb38d97766",
+  "lastOpenFiles": [
+    "2024-04-15-installing-java-ubuntu.md"
+  ]
+}
