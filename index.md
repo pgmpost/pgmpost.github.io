@@ -10,7 +10,7 @@ title: Programming Post
 
 <hr>
 
-![programming-pic](https://www.freecodecamp.org/news/content/images/2022/12/main-image.png)
+![programming-pic](/assets/img/pgmpost.jpg)
 
 <br>
 
